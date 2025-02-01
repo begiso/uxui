@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Begis Orinbaev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav_inner">
+          <div class="nav_left">
+            <a href="/">UX-UI.UZ</a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="fullscreen-menu">
+            <a href="#portfolio" class="link" onclick="closeMenu()"
+              >Портфолио</a
+            >
+            <a href="#about" class="link" onclick="closeMenu()">Обо мне</a>
+            <a href="#contact" class="link" onclick="closeMenu()">Контакты</a>
+            <a href="#" class="link" onclick="closeMenu()"
+              >Резюме <img src="img/icon-send.svg" alt="icon"
+            /></a>
+          </div>
+          <div class="nav_right">
+            <ul class="links">
+              <li>
+                <a href="#portfolio" class="link" onclick="closeMenu()"
+                  >Портфолио</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="link" onclick="closeMenu()">Обо мне</a>
+              </li>
+              <li>
+                <a href="#contact" class="link" onclick="closeMenu()"
+                  >Контакты</a
+                >
+              </li>
+              <li>
+                <a href="#" class="link" onclick="closeMenu()"
+                  >Резюме <img src="img/icon-send.svg" alt="icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <h1 class="header-title">Привет! Меня зовут Бегис</h1>
+          <p class="header-subtitle">
+            Разрабатываю интерфейсы, решающие задачи бизнеса и пользователей
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="section-title">Примеры моих работ</h2>
+          <div class="portfolio_inner">
+            <div class="portfolio-block">
+              <div class="portfolio-img">
+                <img src="img/portfolio-image.jpg" alt="portfolio" />
+              </div>
+              <h4 class="portfolio-title">Коучинговая платформа Ami</h4>
+              <p class="portfolio-paragraph">
+                Мобильное приложение коучинговой платформы для психологической
+                помощи и консультаций.
+              </p>
+            </div>
+            <div class="portfolio-block">
+              <div class="portfolio-img">
+                <img src="img/portfolio-image.jpg" alt="portfolio" />
+              </div>
+              <h4 class="portfolio-title">Коучинговая платформа Ami</h4>
+              <p class="portfolio-paragraph">
+                Мобильное приложение коучинговой платформы для психологической
+                помощи и консультаций.
+              </p>
+            </div>
+            <div class="portfolio-block">
+              <div class="portfolio-img">
+                <img src="img/portfolio-image.jpg" alt="portfolio" />
+              </div>
+              <h4 class="portfolio-title">Коучинговая платформа Ami</h4>
+              <p class="portfolio-paragraph">
+                Мобильное приложение коучинговой платформы для психологической
+                помощи и консультаций.
+              </p>
+            </div>
+            <div class="portfolio-block">
+              <div class="portfolio-img">
+                <img src="img/portfolio-image.jpg" alt="portfolio" />
+              </div>
+              <h4 class="portfolio-title">Коучинговая платформа Ami</h4>
+              <p class="portfolio-paragraph">
+                Мобильное приложение коучинговой платформы для психологической
+                помощи и консультаций.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-title">Немного обо мне</h2>
+          <div class="about_inner">
+            <div class="about-img">
+              <img src="img/my_photo.jpg" alt="Begis" />
+            </div>
+            <div class="about-right">
+              <h3 class="about-title">Бегис Орынбаев, 25 лет</h3>
+              <p class="about-paragraph">
+                Работаю в сфере UX/UI дизайна более 3-x лет. Понимаю тонкости
+                веб и мобильного дизайна, а также болевые точки разработчиков
+                с точки зрения дизайнера. Участвовал в различных интересных
+                проектах, от лендингов до крупных проектов государственного
+                масштаба.
+              </p>
+              <p class="about-paragraph">
+                Люблю творить, изучать новое и развиваться. Всегда нахожу
+                компромисс в решении задач и могу объединить вокруг себя людей.
+                Открыт к обмену идеями и не боюсь конструктивной критики.
+              </p>
+              <h4 class="about-subtitle">Умею:</h4>
+              <ul class="skills">
+                <li class="skill-item">
+                  Проектировать веб и мобильные интерфейсы в Figma
+                </li>
+                <li class="skill-item">
+                  Исследовать проблемы пользователей и бизнеса.
+                </li>
+                <li class="skill-item">
+                  Общаться на одном языке с аналитиками и разработчиками.
+                </li>
+                <li class="skill-item">
+                  Создавать UI-kit’ы и документировать UI для разработки.
+                </li>
+                <li class="skill-item">
+                  Тестировать прототипы (провести коридорные/usability тесты).
+                </li>
+                <li class="skill-item">Проводить различные UX-исследования.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Мои контакты</h2>
+          <div class="contact_inner">
+            <div class="contact-left">
+              <div class="contact-item">
+                <p class="contact-label">E-mail:</p>
+                <a
+                  class="contact-title"
+                  href="mailto:begisorynbaev@gmail.com"
+                  >begisorynbaev@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <p class="contact-label">Telegram:</p>
+                <a
+                  target="_blank"
+                  class="contact-title"
+                  href="https://t.me/begys"
+                  >@begys</a
+                >
+              </div>
+              <div class="contact-item">
+                <p class="contact-label">Номер телефона:</p>
+                <a
+                  class="contact-title"
+                  href="tel:+998913042528"
+                  >+998 (91) 304 25 28</a
+                >
+              </div>
+            </div>
+            <div class="contact-right">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/begis/"
+                class="contact-title"
+                >LinkedIn</a
+              >
+              <a target="_blank" href="https://www.behance.net/begis" class="contact-title">Behance</a>
+              <a target="_blank" href="https://www.instagram.com/begis_orinbaev/" class="contact-title">Instagram</a>
+            </div>
+            <div class="scroll-top" onclick="scrollToTop()">
+              <img src="img/arrow-up.svg" alt="Arrow" />
+              Подняться вверх
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_inner">
+          <div class="footer_left">
+            <a href="/">UX-UI.UZ</a>
+          </div>
+          <div class="footer_right">
+            <ul class="footer_links">
+              <li><a href="#portfolio" class="footer_link">Портфолио</a></li>
+              <li><a href="#about" class="footer_link">Обо мне</a></li>
+              <li><a href="#contact" class="footer_link">Контакты</a></li>
+              <li>
+                <a href="#" class="footer_link"
+                  >Резюме <img src="img/icon-send.svg" alt="icon" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
