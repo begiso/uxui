@@ -38,3 +38,7 @@ window.onscroll = function() {
     });
   }
 
+
+document.getElementById("rediska").addEventListener("click", function() {
+    window.open("https://www.behance.net/gallery/219647927/rediska-mobilnoe-prilozhenie-dlja-dostavki-produktov", "_blank");
+});
