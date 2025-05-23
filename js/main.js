@@ -46,3 +46,7 @@ document.getElementById("rediska").addEventListener("click", function() {
 document.getElementById("newsmart").addEventListener("click", function() {
   window.open("https://www.behance.net/gallery/223280659/Newsmart-onlajn-magazin-elektroniki", "_blank");
 });
+
+document.getElementById("shipaker").addEventListener("click", function() {
+  window.open("https://www.behance.net/gallery/226555927/Shipaker-dizajn-sajta-bloga-redakcii", "_blank");
+});
