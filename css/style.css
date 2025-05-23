@@ -249,13 +249,8 @@ body.menu-open {
   gap: 48px;
 }
 
-/* .portfolio-block {
-  flex: 1 1 calc(50% - 48px);
-  cursor: pointer;
-} */
-
 .portfolio-block {
-  flex: 0 0 calc(50% - 24px); /* 50% минус половина gap */
+  flex: 0 0 calc(50% - 24px);
   max-width: calc(50% - 24px);
   cursor: pointer;
   box-sizing: border-box;
