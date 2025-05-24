@@ -50,3 +50,7 @@ document.getElementById("newsmart").addEventListener("click", function() {
 document.getElementById("shipaker").addEventListener("click", function() {
   window.open("https://www.behance.net/gallery/226555927/Shipaker-dizajn-sajta-bloga-redakcii", "_blank");
 });
+
+document.getElementById("bizler").addEventListener("click", function() {
+  window.open("https://www.behance.net/gallery/226615697/Bizler-Group-lending-dlja-IT-kompanii", "_blank");
+});
