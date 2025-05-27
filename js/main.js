@@ -54,3 +54,7 @@ document.getElementById("shipaker").addEventListener("click", function() {
 document.getElementById("bizler").addEventListener("click", function() {
   window.open("https://www.behance.net/gallery/226615697/Bizler-Group-lending-dlja-IT-kompanii", "_blank");
 });
+
+document.getElementById("fintap").addEventListener("click", function() {
+  window.open("https://www.behance.net/gallery/226849905/Fintap-prilozhenie-dlja-onlajn-platezhej", "_blank");
+});
