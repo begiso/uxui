@@ -229,10 +229,11 @@ body.menu-open {
 
 @media (max-width: 580px) {
   .header-title {
-    font-size: 32px;
+    font-size: 24px;
   }
   .header-subtitle {
     font-size: 18px;
+    margin-top: 12px;
   }
 }
 
